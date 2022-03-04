@@ -1,0 +1,28 @@
+{
+	"Print to console": {
+		"scope": "javascript, javascriptreact",
+		"prefix": "compfunc",
+		"body": [
+		"import React, { useState } from 'react'",
+		"//import './$1.css'",
+		"",
+		"function $1() {",
+		"",
+		"    const [nome, setNome] = useState('')",
+		"",
+		"    const modeloFuncao = () => {",
+		"         setNome('SeuNome')",
+		"    }",
+		"",
+		"    return (",
+		"        <>",
+		"           <div>{nome}</div>",
+		"        </>",
+		"    )",
+		"}",
+		"",
+		"export default $1",
+		],
+		"description": "Log output to console"
+	}
+}

@@ -1,0 +1,30 @@
+{
+	"Print to console": {
+		"scope": "javascript,javascriptreact",
+		"prefix": "compclass",
+		"body": [
+			"import React, { Component } from 'react'",
+			"//import '../$1.css'",
+			"",
+			"class $1 extends Component {",
+			"",
+			"    state = {",
+			"        nome: ''",
+			"    }",
+			"    //para mudar o estado de nome use: this.setState({nome: 'Novo Nome'})",
+			"",
+			"    render() {",
+			"        return (",
+			"            <>",
+			"              {this.state.nome}",
+			"            </>",
+			"        )",
+			"    }",
+			"}",
+			"",
+			"export default $1"
+
+		],
+		"description": "Log output to console"
+	}
+}
